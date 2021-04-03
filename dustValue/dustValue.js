@@ -27,7 +27,7 @@ switch(data['pm10Grade']){
     break;
     case 4 :
         pm10Code = '매우나쁨'
-        pm10Spacer = '    '
+        pm10Spacer = ''
         pm10Color = Color.red()
     break
 }
@@ -45,7 +45,7 @@ switch(data['pm25Grade']){
     break;
     case 4 :
         pm25Code = '매우나쁨'
-        pm25Spacer = '    '
+        pm25Spacer = ''
         pm25Color = Color.red()
     break
 }
